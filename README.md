@@ -2,9 +2,9 @@
 ArcGIS Pro python
 
 
-# SAM-3 Farmland Boundaries (ArcGIS + GeoJSON)
+# SAM-3 (ArcGIS + GeoJSON)
 
-This repo provides scripts and ArcGIS Pro tools to extract **farmland parcels**, **fishponds**, and **water ponds** from aerial imagery using **Ultralytics SAM-3**.  
+This repo provides scripts and ArcGIS Pro tools to extract **farmland parcels**, **fishponds**, and **water ponds**...... from aerial imagery using **Ultralytics SAM-3**.  
 Two outputs are supported:
 
 1. **Polygons** (Polygon/MultiPolygon): dissolved non-overlapping parcels; includes **`crs: EPSG:4326`** in GeoJSON for compatibility.
