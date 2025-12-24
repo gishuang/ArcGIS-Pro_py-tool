@@ -1,0 +1,36 @@
+name: sam3-gpu
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+
+  # --- PyTorch GPU stack ---
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+
+  # --- GIS / Raster / Geometry ---
+  - rasterio
+  - geopandas
+  - shapely
+  - pyproj
+  - fiona
+
+  # --- Common system libs ---
+  - numpy
+  - scipy
+  - pip
+
+  # --- pip-only packages ---
+  - pip:
+      - ultralytics
+      - timm
+      - ftfy
+      - regex
+      - einops
+      - git+https://github.com/ultralytics/CLIP.git
